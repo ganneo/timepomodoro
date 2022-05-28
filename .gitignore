@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# secrets
+secrets.json
+
+# idea files
+.idea
