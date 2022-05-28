@@ -30,7 +30,8 @@ option_word.grid(column=1, row=1)
 activity_name = StringVar()
 activity_name.set("math")
 options = OptionMenu(window, activity_name,
-                     *["Lint Code", "Math Alone", "Play", "Math With Dad", "Basketball", "Chat", "Coding", "Writing"])
+                     *["Lint Code", "Math Alone", "Playing Games", "Math With Dad", "Basketball", "Chat", "Coding",
+                       "Writing", "Tennis", "Chinese", "Physics", "Music"])
 options.grid(column=2, row=1)
 
 start_btn = Button(text="Start", command=start_timer)
